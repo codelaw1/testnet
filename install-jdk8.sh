@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# install jdk8
+# curl https://raw.githubusercontent.com/codelaw1/testnet/master/install-jdk8.sh | bash
+
 wget https://mirrors.huaweicloud.com/java/jdk/8u191-b12/jdk-8u191-linux-x64.tar.gz
 mv jdk-8u191-linux-x64.tar.gz /usr/local
 cd /usr/local
